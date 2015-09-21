@@ -1,13 +1,18 @@
-## Getting and Cleaning Data Course Project
+#Readme file
+##Getting and Cleaning Data Course Project
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis. 
 
 The file run_analysis.R does the following:
 <ul>
-    <li>1. Merges the training and the test sets to create one data set.</li>
-    <li>2. Extracts only the measurements on the mean and standard deviation for each measurement.</li>
-    <li>3. Uses descriptive activity names to name the activities in the data set.</li>
-    <li>4. Appropriately labels the data set with descriptive variable names.</li>
-    <li>5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+    <li>Set working directory.</li>
+    <li>Download and unzip the source data files.</li>
+    <li>Load train and test data, i.e. subjects, activities and measures into datatables.</li>
+    <li>Extract only mean() and standard deviation sd() data.</li>
+    <li>Calculate column means grouped by subject and activity.</li>
+    <li>Write resulting datatable to disk.</li>
 </ul>
+The results file after process the script is named: AverageDataset.txt
+<br>
+The code is well structured and documented.
