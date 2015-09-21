@@ -13,6 +13,10 @@ For each row, the following columns are provided:
  - LAYING
 
 ###Measures values
+Comments: 
+ - Mean: refers as a mean of all obs. for the same subject/activity from the source file.
+ - Time/Freq: refers as a "Time domain" measure or "Frequency domain" measure.
+
 - MeanTimeBodyAccMeanX
 - MeanTimeBodyAccMeanY 
 - MeanTimeBodyAccMeanZ 
