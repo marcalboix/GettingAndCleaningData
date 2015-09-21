@@ -1,6 +1,5 @@
 # Code Book
-This code book summarizes the resulting data fields in AverageDataset.txt
-
+This code book summarizes the resulting data fields in AverageDataset.txt<br>
 For each row, the following columns are provided:
 
 ###Row identifiers
@@ -15,7 +14,7 @@ The file contains only one row for each pair of values (subject/activity).
  - LAYING: subject was laying down during the test
 
 ###Measures columns
-Mean: refers as a mean of all obs. for the same subject/activity from the source file.
+Mean: refers as a mean of all obs. for the same subject/activity from the source file.<br>
 Time/Freq: refers as a "Time domain" measure or "Frequency domain" measure.
 - MeanTimeBodyAccMeanX
 - MeanTimeBodyAccMeanY 
