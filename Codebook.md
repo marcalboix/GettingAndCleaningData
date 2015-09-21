@@ -1,22 +1,22 @@
-# Codebook file for AverageDataset.txt
+# Code Book
+This code book summarizes the resulting data fields in AverageDataset.txt
 
 For each row, the following columns are provided:
 
-###Row unique values
+###Row identifiers
+The file contains only one row for each pair of values (subject/activity).
 - subject: the subject Id.
 - activity: the  activity name:
- - WALKING
- - WALKING UPSTAIRS
- - WALKING DOWNSTAIRS
- - SITTING
- - STANDING
- - LAYING
+ - WALKING: subject was walking during the test
+ - WALKING UPSTAIRS: subject was walking up a staircase during the test
+ - WALKING DOWNSTAIRS: subject was walking down a staircase during the test
+ - SITTING: subject was sitting during the test
+ - STANDING: subject was standing during the test
+ - LAYING: subject was laying down during the test
 
-###Measures values
-Comments: 
- - Mean: refers as a mean of all obs. for the same subject/activity from the source file.
- - Time/Freq: refers as a "Time domain" measure or "Frequency domain" measure.
-
+###Measures columns
+Mean: refers as a mean of all obs. for the same subject/activity from the source file.
+Time/Freq: refers as a "Time domain" measure or "Frequency domain" measure.
 - MeanTimeBodyAccMeanX
 - MeanTimeBodyAccMeanY 
 - MeanTimeBodyAccMeanZ 
