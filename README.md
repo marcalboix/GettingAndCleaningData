@@ -21,5 +21,4 @@ The R script file run_analysis.R does the following:
 </ul>
 The results file after process the script is named: AverageDataset.txt
 <br>
-The code is well structured and documented.
-<br>
+
