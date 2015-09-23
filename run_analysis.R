@@ -53,7 +53,9 @@ dtTest <- cbind(dtSubjectTest, dtActivityTest, dtTest)
 dtTidy <- rbind(dtTrain, dtTest)
 # Column names
 colnames(dtTidy) <- c("subject", "activity", dtFeaturesMeanSd.names)
+# Replace idActivity with Activity description
 dtTidy$activity <- factor(dtTidy$activity, levels = dtActivityLabels[,1], labels = dtActivityLabels[,2])
+# Subject column as factor
 dtTidy$subject <- as.factor(dtTidy$subject)
 
 # Remove unusued variables
