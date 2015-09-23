@@ -1,5 +1,5 @@
 ## Code Book
-This code book summarizes the resulting data fields in AverageDataset.txt  
+This code book summarizes the resulting data fields in _AverageDataset.txt_ file.    
 For each row, the following columns are provided:
 
 ###Row identifiers
